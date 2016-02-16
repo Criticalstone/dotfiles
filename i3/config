@@ -72,7 +72,6 @@ bindsym $mod+e layout default
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -159,7 +158,8 @@ bindsym $mod+r mode "resize"
 # were
 workspace_auto_back_and_forth yes
 
-# Window borders
+# Keyboard layout bindings
+bindsym $mod+space exec ~/.i3/togglekb.sh
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
