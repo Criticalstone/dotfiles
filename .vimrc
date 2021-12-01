@@ -4,3 +4,8 @@ noremap t k
 noremap n l
 noremap e d
 noremap f y
+noremap ii gg
+noremap I G
+noremap k v
+noremap K V
+noremap g u
