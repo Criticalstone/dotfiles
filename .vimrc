@@ -2,6 +2,10 @@ noremap d h
 noremap h j
 noremap t k
 noremap n l
+noremap D 5h
+noremap H 5j
+noremap T 5k
+noremap N 5l
 noremap e d
 noremap f y
 noremap ii gg
@@ -9,3 +13,13 @@ noremap I G
 noremap k v
 noremap K V
 noremap g u
+noremap G U
+noremap c i
+noremap u f
+noremap U F
+noremap b n
+noremap B N
+noremap . e
+noremap x b
+noremap j c
+noremap y t
