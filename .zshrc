@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/kevin/.oh-my-zsh"
+export ZSH="/home/kritt/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -97,8 +97,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export PATH=/home/kevin/dev/prog/bin:$PATH
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre/
+# export PATH=/home/kevin/dev/prog/bin:$PATH
+export JAVA_HOME=/usr/lib/jvm/jdk-17
 
 mvcd() {
 	if [ $# -ne 2 ]; then
@@ -117,3 +117,10 @@ mkcd() {
 		cd $1
 	fi
 }	
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export GOOGLE_APPLICATION_CREDENTIALS="/home/kritt/dev/credentials/Linoleum-304e77c7a6d3.json"
+export PATH=$PATH:$JAVA_HOME/bin
+export PATH=$PATH:/home/kritt/dev/program/bin

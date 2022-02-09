@@ -12,9 +12,11 @@ noremap ii gg
 noremap I G
 noremap k v
 noremap K V
+noremap <c-k> <c-v>
 noremap g u
 noremap G U
 noremap c i
+noremap C I
 noremap u f
 noremap U F
 noremap b n
